@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+  
+
+}
+ h2{
+    text-align: center;
+    
+    font-size: 40px;
+     text-transform: uppercase;  /*capital letter */
+    margin-bottom: 40px;
+    
+    
+}
+#form{
+    color: aliceblue;
+}
+
+  
+
+label{
+      margin: 0 ;
+     padding: 10px 40px;
+     font-size: 20px;
+     color :rgb(250, 249, 249)
+}
+
+input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+     outline: none;       /* الحواف بتاعت الtext box */
+    border-radius: 500px;     /*<!--square shape -->*/
+}
+button{
+    font-size: 18px;
+    font-weight: bold;
+    margin:20px 0;
+    padding: 10px 15px;
+    width: 50%;
+     
+
+}
+ body{
+     /* background-image: url(../images/imagezzzzz.jpg); */
+     background-color:#1B1F2A;
+     position:absolute;
+     width: 100%;
+     height: 100%; 
+    background-size:cover; 
+}
+.login-form{ 
+    width: 350px;
+    top: 10%;
+    bottom: 20%;
+    left: 20%;
+    position:absolute ;
+    margin-top:100px ; 
+    text-align:center;
+}

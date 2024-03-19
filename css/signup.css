@@ -1,0 +1,43 @@
+.sign_up{
+    width: 350px;
+    top: 10%;
+    bottom: 20%;
+    left: 20%;
+    position:absolute ;
+    margin-top:100px ; 
+    text-align:center;
+}
+#file{
+    border: solid rgb(247, 247, 247);
+    background-color: lemonchiffon;
+    margin:20px 0  ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Abril Fatface', cursive;
+  
+
+}
+#male{
+    color: lemonchiffon;
+    display: inline;
+    position: absolute ; top: 131% ;left: 60px;
+    
+}
+#female{
+    color: lemonchiffon;
+    position: absolute ; top: 138% ;left: 60px;
+}
+.gender{
+    color: lemonchiffon;
+}
+input{
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+     outline: none;       /* الحواف بتاعت الtext box */
+    border-radius: 500px;     /*<!--square shape -->*/
+}
